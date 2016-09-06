@@ -1,0 +1,36 @@
+{
+    // package name
+    "name": "clover/yii1-wechat",
+
+    // package type
+    "type": "yii1-extension",
+
+    "description": "The Micro Message API for the Yii framework",
+    "keywords": ["yii1", "weixin", "mpweixin", "qyweixin", "micromessage","微信"],
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiisoft/yii/issues?labels=ext%3Aimagine",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/clover402/yii2"
+    },
+    "authors": [
+        {
+            "name": "Clover Liu",
+            "email": "305471598@qq.com"
+        }
+    ],
+
+    // package dependencies
+    "require": {
+        "yiisoft/yii": "*",
+    },
+
+    // class autoloading specs
+    "autoload": {
+        "psr-4": {
+            "clover402\\MicroMessage\\": ""
+        }
+    }
+}
